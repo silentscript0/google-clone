@@ -54,7 +54,9 @@ function Search({ hideButtons = false }) {
           >
             Google Search
           </Button>
-          <Button variant="outlined">I'm Feeling Lucky</Button>
+          <Button className="search__buttonHidden" variant="outlined">
+            I'm Feeling Lucky
+          </Button>
         </div>
       )}
     </form>

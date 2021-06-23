@@ -22,9 +22,6 @@ function Home() {
           <Link to="/images">Images</Link>
           <AppsIcon />
           <Avatar />
-          {/* Link */}
-          {/* Icon */}
-          {/* Avatar */}
         </div>
       </div>
 
@@ -34,7 +31,9 @@ function Home() {
           alt="Google"
         />
         <div className="home__inputContainer">
-          <Search hideButtons />
+          <Search />
+
+          <div className="searchPage__options"></div>
         </div>
       </div>
     </div>
